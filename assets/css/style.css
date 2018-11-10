@@ -25,6 +25,7 @@ html {
 	background: #4aaaa5;
 	padding: 20px;
 }
+
 .my-navbar-link{
 	font-family: Georgia, Times, "Times New Roman", serif;
 	color: #999;
@@ -111,4 +112,47 @@ h1{
 	right: 0;
 	width: 100%;
 	
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.my-container{
+		width: 100%;
+		border: hidden;
+		padding: 0px;
+		margin: 10px;
+		margin: auto;
+		
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	
+	.my-container{
+		width: 100%;
+		border: hidden;
+		padding: 0px;
+		margin: 10px;
+		margin: auto;
+		
+	}
+	
+	#my-about-image{
+		width: 100%
+	}
+	#my-navbar{
+		text-align: center;
+		justify-content: space-around; 
+	}
+	.my-navbar-name{
+		position: relative;
+		margin: auto;
+		left: 0;
+		right: 0;
+	}	
+	.small-background{
+		background: #4aaaa5;
+
+	}
+
 }
