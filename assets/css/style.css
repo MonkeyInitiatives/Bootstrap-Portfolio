@@ -154,5 +154,19 @@ h1{
 		background: #4aaaa5;
 
 	}
+	.my-portfolio-container {
+		position: relative;
+		float: left;
+		width: 95%;
+		margin: 20px;
+		overflow: auto;
+	}
+	.my-portfolio-container img{
+		width: 95%;
+		height: 95%;
+	}
+	.my-portfolio-container p {
+		width: 95%;
+	}
 
 }
